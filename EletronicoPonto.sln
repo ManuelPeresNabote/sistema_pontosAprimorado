@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EletronicoPonto", "EletronicoPonto.csproj", "{78CCFE2B-1F9C-4410-AD2A-207274077CA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "..\Model\Model.csproj", "{91B212C8-56F6-4984-8866-3E2CE31FEE83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78CCFE2B-1F9C-4410-AD2A-207274077CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78CCFE2B-1F9C-4410-AD2A-207274077CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78CCFE2B-1F9C-4410-AD2A-207274077CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78CCFE2B-1F9C-4410-AD2A-207274077CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91B212C8-56F6-4984-8866-3E2CE31FEE83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B212C8-56F6-4984-8866-3E2CE31FEE83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91B212C8-56F6-4984-8866-3E2CE31FEE83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91B212C8-56F6-4984-8866-3E2CE31FEE83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8969E7B-9CCC-41A5-B4C1-380AF37D168A}
+	EndGlobalSection
+EndGlobal
