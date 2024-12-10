@@ -41,10 +41,12 @@
             // dtGridPontos
             // 
             this.dtGridPontos.BackgroundColor = System.Drawing.Color.MidnightBlue;
+            this.dtGridPontos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dtGridPontos.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dtGridPontos.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.Blue;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.DarkBlue;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -64,6 +66,7 @@
             this.dtGridPontos.EnableHeadersVisualStyles = false;
             this.dtGridPontos.Location = new System.Drawing.Point(0, 0);
             this.dtGridPontos.Name = "dtGridPontos";
+            this.dtGridPontos.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.dtGridPontos.RowHeadersVisible = false;
             this.dtGridPontos.RowHeadersWidth = 51;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.GhostWhite;

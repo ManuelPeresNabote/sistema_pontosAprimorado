@@ -49,6 +49,8 @@
             // dtGridFuncionario
             // 
             this.dtGridFuncionario.BackgroundColor = System.Drawing.Color.MidnightBlue;
+            this.dtGridFuncionario.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dtGridFuncionario.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dtGridFuncionario.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.Blue;
@@ -62,7 +64,7 @@
             this.dtGridFuncionario.Cursor = System.Windows.Forms.Cursors.Arrow;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.Blue;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.DarkBlue;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -72,6 +74,7 @@
             this.dtGridFuncionario.EnableHeadersVisualStyles = false;
             this.dtGridFuncionario.Location = new System.Drawing.Point(0, 0);
             this.dtGridFuncionario.Name = "dtGridFuncionario";
+            this.dtGridFuncionario.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.dtGridFuncionario.RowHeadersVisible = false;
             this.dtGridFuncionario.RowHeadersWidth = 51;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.GhostWhite;
