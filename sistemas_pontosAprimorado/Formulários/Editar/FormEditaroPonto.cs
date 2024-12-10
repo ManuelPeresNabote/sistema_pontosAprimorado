@@ -15,7 +15,7 @@ namespace sistemas_pontosAprimorado.Formulários.Editar
 {
     public partial class FormEditaroPonto : Form
     {
-        private string LinhaConexao = "Server=CLAUDIA1968\\DBCARLOS;Database=CONTROLEO_PONTO;User=carkapo;Password=112233; ";
+        private string LinhaConexao = "Server=LS05MPF;Database=CONTROLEO_PONTO;User Id=sa;Password=admsasql;";
         private SqlConnection Conexao;
         DAOPontos dao = new DAOPontos();
         public FormEditaroPonto(int pontoId)

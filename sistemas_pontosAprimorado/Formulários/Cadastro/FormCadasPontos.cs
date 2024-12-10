@@ -15,7 +15,7 @@ namespace sistemas_pontosAprimorado.Formulários.Cadastro
     public partial class FormCadasPontos : Form
     {
         //private string LinhaConexao = "Server=LS05MPF;Database=AULA_DS;User Id=sa;Password=admsasql;";
-        private string LinhaConexao = "Server=CLAUDIA1968\\DBCARLOS;Database=CONTROLEO_PONTO;User=carkapo;Password=112233; ";
+        private string LinhaConexao = "Server=LS05MPF;Database=CONTROLEO_PONTO;User Id=sa;Password=admsasql;";
         private SqlConnection Conexao;
         DAOPontos dao = new DAOPontos();
         public FormCadasPontos()
@@ -58,6 +58,46 @@ namespace sistemas_pontosAprimorado.Formulários.Cadastro
             {
                 MessageBox.Show("Erro ao adicionr", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtpHoraSaida_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtpHoraEntrada_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtpData_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbFuncionarios_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -11,7 +11,7 @@ namespace sistemas_pontosAprimorado.DAO
     internal class DAOUsuarios
     {
         //private SqlConnection Conexao = new SqlConnection("Server=LS05MPF;Database=AULA_DS;User Id=sa;Password=admsasql;");
-        private SqlConnection Conexao = new SqlConnection("Server=CLAUDIA1968\\DBCARLOS;Database=CONTROLEO_PONTO;User=carkapo;Password=112233;");
+        private SqlConnection Conexao = new SqlConnection("Server=LS05MPF;Database=CONTROLEO_PONTO;User Id=sa;Password=admsasql;");
 
         public bool UsuarioConfirmado(string nome, string senha)
         {
